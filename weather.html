@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="nav">
+            <h1 class="nav-title">Dojo Weather</h1>
+            <ul class="nav-links">
+                <li onclick="loading()"><a href="#"><a href="#">Burbank</a></li>
+                <li onclick="loading()"><a href="#"><a href="#">Chicago</a></li>
+                <li onclick="loading()"><a href="#"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <!-- <div class="nav">
+                <h1 class="nav-title">Dojo Weather</h1>
+                <ul class="nav-links">
+                    <li onclick="loading()"><a href="#"><a href="#">Burbank</a></li>
+                    <li onclick="loading()"><a href="#"><a href="#">Chicago</a></li>
+                    <li onclick="loading()"><a href="#"><a href="#">Dallas</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                <h1 class="nav-title">Dojo Weather</h1>
+                <ul class="nav-links">
+                    <li onclick="loading()"><a href="#"><a href="#">Burbank</a></li>
+                    <li onclick="loading()"><a href="#"><a href="#">Chicago</a></li>
+                    <li onclick="loading()"><a href="#"><a href="#">Dallas</a></li>
+                </ul> -->
+            <!-- </div> -->
+            <div class="top">
+                <h1>San Hosea</h1>
+                <form class="frin">
+                    <label>Show temprature in</label>
+                    <select name="temperature-scale" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </form>
+            </div>
+            <div class="days">
+                <div class="rax">
+                <h1>Today</h1>
+                    <img src="weather/some_rain.png" alt="somerain">
+                <p class="rous"><b>Some rain</b></p>
+                <p>
+                    <span class="red" id="temp1">24°</span>
+                    <span class="blue" id="temp2">18°</span>
+                </p>
+                </div>
+                <div class="rax">
+                    <h1>Tomorrow</h1>
+                <img src="weather/some_sun.png" alt="sun">
+                <p class="rous"><b>Some Sun</b></p>
+                <p>
+                    <span class="red" id="temp3">27°</span>
+                    <span class="blue" id="temp4">19°</span>
+                </p>
+                </div>
+                <div class="rax">
+                    <h1>Friday</h1>
+                <img src="weather/some_clouds.png" alt="clouds">
+                <p class="rous"><b>Some clouds</b></p>
+                <p>
+                    <span class="red" id="temp5">21°</span>
+                    <span class="blue" id="temp6">16°</span>
+                </p>
+                </div>
+                <div class="rax">
+                    <h1>Saturday</h1>
+                    <img src="weather/some_sun.png" alt="sun">
+                    <p class="rous"><b>Some sun</b></p>
+                    <p>
+                        <span class="red" id="temp7">26°</span>
+                        <span class="blue" id="temp8">21°</span>
+                    </p>
+                </div>
+            </div>
+            <div class="cookies">
+                <div class="policy">
+                    <img src="weather/cookie.png" alt="cookie">
+                    <div class="under">
+                        <h3>Stop!Cookie time</h3>
+                <p class="foot">
+                    We use cookies(sadly not the edible ones) to personalize
+                    <br>
+                    content and ads, to provide social media features and to analyse our traffic.
+                    <a href="#">Readmore...</a>
+                    <button class="btn" onclick="iaccept()">I Accept</button>
+                </p>
+                <!-- <button class="btn" onclick="iaccept()">I Accept</button> -->
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+    <script src="weather.js"></script>
+</body>
+</html>

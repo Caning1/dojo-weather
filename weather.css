@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contain{
+    margin: 0 auto;
+    width: 100%;
+}
+.wrapper{
+    margin-right: 50px;
+    margin: left 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    color: aliceblue;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 1px;
+    padding-top: 5px;
+}
+.nav a {
+    text-decoration: none;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-title{
+margin-left: 80px;
+margin-top: 10px;
+}
+.top{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 80px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.temp{
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+.rax{
+    flex:1;
+    background-color: bisque;
+    text-align: justify;
+    padding: 40px 0;
+    margin-left: 65px;
+}
+.days{
+    display: flex;
+    justify-content: space-around;
+}
+.red{
+    color: red;
+    font-size: bold;
+    font-size: 2.0rem;
+}
+.blue{
+    color: blue;
+    font-size: bold;
+    font-size: 2.0rem;
+}
+.frin{
+    margin-right: 40px;
+}
+.red, .blue{
+    margin-left: 50px;
+}
+.rax img{
+    border-radius: 50%;
+    height: 180px;
+    margin-left: 20px;
+    
+}
+.policy{
+    border: 3px solid black;
+    box-sizing: border-box;
+    width: 800px;
+    height: 160px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background-color: lightblue;
+}
+.rous{
+    margin-left: 80px;
+}
